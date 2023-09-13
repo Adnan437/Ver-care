@@ -245,3 +245,91 @@ h2{
     position: absolute;
     right: 180px;
 }
+
+/* --------Get offer------- */
+
+.get-offer{
+    width: 100%;
+    padding: 90px 0;
+    background-color: #FFC400;
+
+}
+
+.offer-container{
+    width: 1400px;
+    padding: 25px;
+    margin: 0 auto;
+}
+
+.offer-text{
+    text-align: center;
+    color: white;
+}
+
+.offer-text h2{
+    font-size: 75px;
+    font-weight: 600;
+}
+
+.offer-text p{
+    padding-top: 10px;
+}
+
+.offer-img{
+    display: flex;
+    margin-top: 95px;
+    gap: 10rem;
+}
+
+.offer-price{
+    text-align: center;
+    margin: 20px;
+    color: white;
+    font-size: 40px;
+}
+
+.buy-button{
+    width: 200px;
+    height: 60px;
+    font-size: 25px;
+    border: none;
+    border-radius: 30Px;
+    align-items: center;
+    margin-left: 70px;
+    color: white;
+    background-color: #00BFCB;
+}
+
+
+/* --------Vetcare team------ */
+
+.Vetcare-team{
+    width: 100%;
+    padding: 90px 0;
+}
+
+.team-container{
+    width: 1400px;
+    padding: 25px;
+    margin: 0 auto;
+}
+
+.team-text{
+    text-align: center;
+}
+
+.team-text h2{
+    font-size: 75px;
+    font-weight: 600;
+}
+
+.team-text p{
+    padding-top: 10px;
+    font-size: 34px;
+}
+
+.team-img{
+    display: flex;
+    margin-top: 95px;
+    gap: 10rem;
+}
