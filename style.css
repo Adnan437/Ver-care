@@ -25,6 +25,7 @@ a {
     color: white;
     font-size: 24px;
     font-weight: 400;
+    cursor: pointer !important;
     
 }
 
@@ -133,6 +134,7 @@ h1{
     border: none;
     color: white;
     font-size: 20px;
+    cursor: pointer;
 }
 
 .button2{
@@ -144,6 +146,7 @@ h1{
     height: 70px;
     color: white;
     font-size: 20px;
+    cursor: pointer;
 }
 
 
@@ -171,6 +174,7 @@ h2{
     color: white;
     font-size: 20px;
     margin-top: 50px;
+    cursor: pointer;
 }
 
 /* ---------Services--------- */
@@ -332,4 +336,102 @@ h2{
     display: flex;
     margin-top: 95px;
     gap: 10rem;
+}
+
+.members-name{
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.members-id{
+    font-size: 25px;
+    font-weight: 400;
+    padding-top: 0;
+    text-align: center;
+}
+
+.socal-img {
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* -------------contact----------- */
+
+.contact{
+    background-image: url(./img/contact-img.jpg);
+    height: 575px;
+    width: 100%;
+    background-size: cover;
+}
+
+.contact-contant{
+    width: 1400px;
+    height: 100%;
+    padding: 25px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 300px 0;
+}
+
+.contact-contant h2{
+    font-size: 40px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+}
+
+.contact-number{
+    padding-top: 58px;
+}
+
+
+/* --------Recent Posts-------- */
+
+.recent-post{
+    padding: 90px 0;
+}
+
+.post-container{
+    width: 1400px;
+    padding: 25px;
+    margin: 0 auto;
+}
+
+.post-text{
+    text-align: center;
+}
+
+.post-text h2{
+    font-size: 75px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.post-text p{
+    font-size: 33px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.post-img{
+    display: flex;
+    margin-top: 95px;
+    gap: 10rem;
+    
+}
+
+.post-img-text{
+    padding: 10px;
+    
+}
+
+.post-img-text h3{
+    font-size: 25px;
+    font-weight: 600;
+    padding-top: 10px;
 }
